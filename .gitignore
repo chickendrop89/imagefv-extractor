@@ -1,0 +1,10 @@
+volume*/
+extracted_images/
+out/
+
+imagefv.*
+*.img
+*.bin
+*.bmp
+*.elf
+*.fv
