@@ -13,6 +13,21 @@ pip install -r requirements.txt
 python ./extractor.py ./imagefv.elf
 ```
 
+## Usage:
+```
+usage: extractor.py [-h] [-o OUTPUT] [-v] input [input ...]
+
+Extract bootloader/charging pictures from imagefv blobs
+
+positional arguments:
+  input                Input file to process
+
+options:
+  -h, --help           show this help message and exit
+  -o, --output OUTPUT  Output directory (default: extracted_images)
+  -v, --verbose        Enable verbose logging (default: False)
+```
+
 ## How it works:
 1. The script scans the input file for `UEFI` structures using the `uefi-firmware` package
 2. If it finds them, it dumps all files/sections to a temporary directory
