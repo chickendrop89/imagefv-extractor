@@ -50,8 +50,7 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 6297377       0x601721        Certificate in DER format (x509 v3), header length: 4, sequence length: 720
 ```
 
-And i could not find any open-source (re)packaging tool for it either, so it would probably need to be made.
-I am not risking it at this moment due to the absence of patched firehose for my device.
+I also couldn't find any open-source (re)packaging tools for it either, so one would need to be created. However i'm not risking a hard-brick.
 
 Here are some references to it being loaded on `xiaomi-amethyst` during `ABL` phase:
 ```
