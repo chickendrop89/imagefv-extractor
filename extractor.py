@@ -38,7 +38,7 @@ def setup_logging() -> logging.Logger:
             record.msg = f"(x) {record.msg}"
             return super().format(record)
 
-    log = logging.getLogger('fastboot-oem-extractor')
+    log = logging.getLogger('imagefv-extractor')
     log.setLevel(logging.INFO)
     log.propagate = False
 
